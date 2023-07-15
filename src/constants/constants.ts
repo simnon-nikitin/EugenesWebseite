@@ -1,0 +1,4 @@
+export const API_KEY = '852f85e49c83d179c55603c662370e8b'; // Вставьте ваш API ключ TMDb здесь
+
+export const JWT_TOKEN =
+  'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NTJmODVlNDljODNkMTc5YzU1NjAzYzY2MjM3MGU4YiIsInN1YiI6IjY0Nzc4MzQxYjExMzFmMDBkZTY3NzdlZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.briIXc6UlbYAlohk-IYSY_VgllxkksDegpuy_jOlnCU';
