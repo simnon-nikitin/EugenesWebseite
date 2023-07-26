@@ -6,20 +6,20 @@ const Header: FC = () => {
   return (
     <header>
       <div className="logo">
-        <img src="" alt="KinoSearch" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/1200px-Star_wars2.svg.png"
+          alt="Star Wars"
+        />
       </div>
-      <nav className="nav">
-        <ul className="nav-list">
-          <li className="nav-item">Фильмы</li>
-          <li className="nav-item">Сериалы</li>
-          <li className="nav-item">Актеры</li>
-          <li className="nav-item">Рейтинги</li>
-        </ul>
-      </nav>
-      <div className="search">
-        <input type="text" placeholder="Поиск" />
-        <button type="button">Найти</button>
-      </div>
+      <ul className="navigation-list">
+        <li className="nav-item">Characters</li>
+        <li className="nav-item">Locations</li>
+        <li className="nav-item">Starships</li>
+      </ul>
+      <a className="extra" href="https://swapi.dev/">
+        {' '}
+        API
+      </a>
     </header>
   );
 };
