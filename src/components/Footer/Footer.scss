@@ -1,0 +1,32 @@
+footer {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 410px;
+  height: 50px;
+  color: #1E0036;
+}
+
+.footer-elements {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  li:not(:last-child) {
+    margin-right: 75px;
+  }
+
+  li:hover {
+    transition: color 0.7s ease-in-out;
+    cursor: url('../../assets/icons/cursor-hovered.png'), auto;
+
+    svg path {
+      fill: #f09bdd;
+    }
+  }
+}

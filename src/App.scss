@@ -1,16 +1,31 @@
 @import '../src/assets/fonts/fonts.scss';
-
+@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.cdnfonts.com/css/pragmatica');
 
 .contanier{
-  background-color: #CBBFDE;
-  width: 1090px;
-  margin: 0 auto;
-  padding: 65px 138px;
+  width: 1300px;
+  margin: 150px auto;
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
-  background-color: #D9D9D9;
+  font-family: 'Pragmatica', sans-serif;
+  color: #1E0036;
+  background: linear-gradient(
+  to bottom right,
+  #e66a0b,
+  #2516f5
+),
+radial-gradient(circle at 30% 107%, #ed1919 0%, #a3008b 25%, #3838e6 100%),
+radial-gradient(circle at -30% -107%, #ff0000 0%, #00ff00 -25%, #6060ff -100%, #ff00ff -100%),
+url('./assets/images/noisy-gradients.png'); 
+background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  
+  background-blend-mode: overlay;
+  cursor: url('./assets/icons/cursor.png'), auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,15 +41,14 @@ h1, h2, h3, h4, h5, h6 {
   a {
     text-decoration: none;
     color: inherit;
-    cursor: pointer;
+    cursor: url('./assets/icons/cursor-hovered.png'), auto;
   
     &:hover,
     &:focus {
       text-decoration: underline;
     }
   }
-  body {
-    margin: 0;
-    padding: 0;
-    margin-top: 60px;
+  iframe {
+    border: none;
+    outline: none;
   }
